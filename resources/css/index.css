@@ -1,0 +1,52 @@
+/*
+DETOX COLORS:
+    * Green: #4e8e4d
+    * Navy Blue: #253140
+    * White: #ffffff
+*/
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    border: 1px solid blue;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: #253140;
+    color: #ffffff;
+}
+header img {
+    width: 50px;
+    height: 50px;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+.nav-logo p {
+    margin-left: 8px;
+    font-size: 20px;
+}
+
+nav {
+    border: 1px solid forestgreen;
+}
+nav a {
+    margin-right: 10px;
+    border: 1px solid purple;
+}
+
+.socials img {
+    width: 20px;
+    vertical-align: text-bottom;
+    padding: 0px 5px;
+}
+
+.socials {
+    border: 1px solid red;
+    padding: 5px 10px;
+}
