@@ -47,6 +47,26 @@ table {
 }
 /*** END STYLE RESET ***/
 
+/*** UNIVERSAL STYLES ***/
+body { 
+    font-family: Lato, sans-serif;
+    background-color: #e4efdc;
+}
+h4 {
+    font-size: 24px;
+    font-weight: 700;
+}
+h6 {
+    font-size: 20px;
+    font-weight: 700;
+}
+b {
+    font-weight: 700;
+}
+em {
+    font-style: italic;
+}
+
 /*** HEADER ***/
 header {
     padding: 20px 50px;
