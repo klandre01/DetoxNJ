@@ -9,23 +9,25 @@
         <link rel="stylesheet" type="text/css" href="resources/css/index.css" title="style">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap" rel="stylesheet">
-        <script src="resources/js/script.js"></script>
+        <script src='resources/js/script.js'></script>
     </head>
 
     <body>
 
-        <header>
-            <div class='nav-logo'>
-                <img src='resources/images/detoxLogo.png' alt='Detox NJ Logo'>
-                <p>Detox NJ</p>
-            </div>
-            <nav class='nav'>
-                <a class='about'>About Us</a>
-                <a>News</a>
-                <a>Contact Us</a>
-                <a>Donate</a>
-                <a>Issues</a>
-            </nav>
+        <div class='nav-bar'>
+            <header>
+                <div class='nav-logo'>
+                    <img src='resources/images/detoxLogo.png' alt='Detox NJ Logo'>
+                    <p>Detox NJ</p>
+                </div>
+                <nav class='nav'>
+                    <a class='about' onmouseover="showDropdown('about-us')" onmouseout="hideDropdown('about-us')">About Us</a>
+                    <a>News</a>
+                    <a>Contact Us</a>
+                    <a>Donate</a>
+                    <a>Issues</a>
+                </nav>
+            </header>
             <div id='about-us' class='pop-up'>
                 <a>Our Mission</a>
                 <a>Our members/volunteers</a>
@@ -33,7 +35,7 @@
                 <a>Officers/Board</a>
                 <a>Financial</a>
             </div>
-        </header>
+        </div>
         
         <div class='photo-slideshow'>
             <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Superfund_sites.svg/450px-Superfund_sites.svg.png'>

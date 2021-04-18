@@ -72,6 +72,8 @@ header {
     padding: 20px 50px;
     background-color: #000000;
     color: #ffffff;
+    display: flex;
+    justify-content: space-between;
 }
 .nav-logo {
     display: flex;
